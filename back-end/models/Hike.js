@@ -13,6 +13,6 @@ const HikeSchema = new mongoose.Schema({
         userID: Number
 })
 
-const Hike = mongoose.model("Hike", HikesSchema)
+const Hike = mongoose.model("Hike", HikeSchema)
 
 module.exports = Hike
